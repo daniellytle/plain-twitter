@@ -1,18 +1,71 @@
-body {
-  background: url('https://media.giphy.com/media/3o7WTDJQVuYwhhuLhC/giphy.gif') !important;
+/*
+PlainTwitter
+Author: daniellytle
+*/
+
+
+.topbar {
+  display: none !important;
 }
 
-#masthead,
-#primary {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  background-color: #fff;
-  padding: 20px !important;
+.dashboard {
+  display: none !important;
 }
-#masthead {
-  background: none;
+
+.content-main {
+  width: 100% !important;
+  margin: 0 !important;
 }
-#masthead img, #primary img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+
+#page-outer {
+  padding-top: 2em;
+}
+
+#page-container {
+  width: 600px;
+  margin: 0 auto;
+  max-width: 90%;
+  padding-top: 0;
+}
+
+.ProfileCanopy {
+  display: none !important;
+}
+
+.ProfilePage {
+  min-width: inherit !important;
+}
+
+.ProfileHeading-spacer {
+  display: none !important;
+}
+
+.Grid-cell:first-child {
+  display: none !important;
+}
+
+.Grid-cell:nth-child(2) {
+  width: 100% !important;
+}
+
+.navbox {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.navbox .center {
+  width: 600px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.navbox .center a {
+  color: #3B94D9;
+  line-height: 1.375;
+  font-size: 14px;
 }
