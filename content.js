@@ -5,7 +5,7 @@ console.log('inserting')
 var homeHTML = `
 <div class='navbox'>
   <div class='center'>
-    <a href='/'>PlainTwitter</a>
+    <a href='https://github.com/daniellytle/plain-twitter'>PlainTwitter</a>
     <a style='float:right;' href='/'>Home</a>
   </div>
 </div>`;
